@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>
+    function checker(a) {
+      if (a%2==0) {
+        console.log('Podana liczba jest parzysta.');
+      } else {
+        console.log('Podana liczba jest nieparzysta.');
+      }
+    }
+
+    checker(0);
+
+    let array = []
+    let i = 0;
+    function numberGenerator() {
+      for (i = 0; i<101; i++) {
+        if (i%3==0) {
+          array.push(i);
+        }
+      }
+      console.log(array)
+    }
+  console.log(numberGenerator());
+
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
